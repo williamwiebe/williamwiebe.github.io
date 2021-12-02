@@ -3,30 +3,32 @@ body
     margin:10px;
     padding:10px;
     text-align:left;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-family: Arial;
     font-size:15px;
-    color:#000000;
-    background-color:#cecefd;
+    color:black;
+    background-color:#fff1e5;
     text-decoration:none;
 }
 
-	      
-/* unvisited link */
+
 a:link {
-    color:#000000;
+    color:black;
 }
 
-/* visited link */
 a:visited {
-    text-decoration:none;;
+    color:black;
 }
 
-/* mouse over link */
 a:hover {
     color:#00FF00;
 }
 
-/* selected link */
-a:active {
-    color:#fff;
+
+hr {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: 0px;
+    max-width: 900px;
 }
