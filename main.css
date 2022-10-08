@@ -22,7 +22,7 @@ h2 {
 }
 
 ul {
-  list-style: "▰   ";
+  list-style: "▸  ";
 }
 
 li {
@@ -63,7 +63,7 @@ a {
 }
 
 #header:hover:before {
-  content: "▰▰▰▰▰▰▰▰▰▰";
+  content: "◜◞";
 }
 
 #footer {
