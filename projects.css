@@ -13,6 +13,14 @@ body *::-moz-selection {
   background: #abe7b0;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: Arial;
+  padding: 1em 0 0;
+}
+
 a {
   color: blue;
   font-family: Arial;
@@ -31,6 +39,18 @@ img {
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 0vh;
+}
+
+#header {
+  text-align: center;
+}
+
+#header:hover span {
+  display: none;
+}
+
+#header:hover:before {
+  content: "◜◞";
 }
 
 @media only screen and (max-width: 600px) {
