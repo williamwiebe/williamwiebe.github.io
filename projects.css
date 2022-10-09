@@ -40,3 +40,12 @@ img.p {
   margin-right: 30%;
   margin-bottom: 0vh;
 }
+
+@media only screen and (max-width: 600px) {
+
+  #main-list {
+    width: 80vw;
+    left: 5vw;
+    margin: 0 0 15vh 0vw;
+    padding: 0vw 5vw 0vw 5vw;
+  }
