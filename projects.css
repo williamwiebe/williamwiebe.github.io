@@ -2,7 +2,8 @@ body {
   width: 100vw;
   padding: 0;
   margin: 0 0 0 0;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 
 body *::selection {
@@ -22,7 +23,7 @@ h2 {
 }
 
 a {
-  color: blue;
+  color: white;
   font-family: Arial;
 }
 
@@ -35,14 +36,13 @@ img {
   font-family: Arial;
   font-size: 14px;
   line-height: 1.4;
+  margin: 20px;
   width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
   margin-bottom: 0vh;
 }
 
 #header {
-  text-align: center;
+  color: white;
 }
 
 #header:hover span {

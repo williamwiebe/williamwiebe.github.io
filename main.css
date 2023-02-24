@@ -2,7 +2,8 @@ body {
   width: 100vw;
   padding: 0;
   margin: 0 0 0 0;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 
 body *::selection {
@@ -17,36 +18,39 @@ h2 {
   font-weight: bold;
   font-size: 1em;
   text-transform: uppercase;
-  font-family: Arial;
+  font-family: "Times New Roman", Times, serif;
   padding: 1em 0 0;
 }
 
 ul {
-  list-style: "○  ";
+  list-style: "";
   padding: 0;
 }
 
-li {
+.artwork_section {
   text-transform: uppercase;
+  border-bottom: 1px white solid;
 }
 
 a {
-  color: blue;
+  color: white;
   font-family: Arial;
+}
+
+img {
+  width: 900px;
 }
 
 #main-list {
   font-family: Arial;
   font-size: 14px;
   line-height: 1.4;
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin: 20px;
   margin-bottom: 0vh;
 }
 
 #header {
-  text-align: center;
+  color: white;
 }
 
 #header:hover span {
