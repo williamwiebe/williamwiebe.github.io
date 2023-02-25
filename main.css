@@ -7,11 +7,11 @@ body {
 }
 
 body *::selection {
-  background: #abe7b0;
+  background: #cdcdcd;
 }
 
 body *::-moz-selection {
-  background: #abe7b0;
+  background: #cdcdcd;
 }
 
 h2 {

@@ -7,11 +7,11 @@ body {
 }
 
 body *::selection {
-  background: #abe7b0;
+  background: #cdcdcd;
 }
 
 body *::-moz-selection {
-  background: #abe7b0;
+  background: #cdcdcd;
 }
 
 h2 {
@@ -33,12 +33,27 @@ img {
 }
 
 #main-list {
-  font-family: Arial;
-  font-size: 14px;
-  line-height: 1.4;
   margin: 20px;
   width: 40%;
   margin-bottom: 0vh;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#center-block {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  max-width: 80vw !important;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 0vh;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 #header {
