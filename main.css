@@ -18,7 +18,7 @@ h2 {
   font-weight: bold;
   font-size: 1em;
   text-transform: uppercase;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
   padding: 1em 0 0;
 }
 
@@ -34,7 +34,7 @@ ul {
 
 a {
   color: white;
-  font-family: Arial;
+  font-family: sans-serif;
 }
 
 img {
@@ -42,7 +42,7 @@ img {
 }
 
 #main-list {
-  font-family: Arial;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 1.4;
   margin: 20px;

@@ -18,13 +18,13 @@ h2 {
   font-weight: bold;
   font-size: 1em;
   text-transform: uppercase;
-  font-family: Arial;
+  font-family: sans-serif;
   padding: 1em 0 0;
 }
 
 a {
   color: white;
-  font-family: Arial;
+  font-family: sans-serif;
 }
 
 img {
@@ -44,7 +44,7 @@ img {
   margin: 20px;
   width: 40%;
   margin-bottom: 0vh;
-  font-family: Arial;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 1.4;
 }
@@ -59,7 +59,7 @@ img {
   box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 0vh;
-  font-family: Arial;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 1.4;
 }
