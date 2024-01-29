@@ -102,8 +102,9 @@ img {
 }
 
 #cctv-end {
-  width: 100%;
+  width: 30%;
   align-self: flex-end;
+  margin-left: auto;
   display: flex;
   justify-content: space-between;
 }
