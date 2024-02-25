@@ -91,8 +91,6 @@ img {
   width: 60%;
   height: 70%;
   margin: auto;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.35);
   overflow: auto;
   display: flex;
   flex-wrap: wrap;
