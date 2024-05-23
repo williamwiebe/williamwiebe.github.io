@@ -88,8 +88,8 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 60%;
-  height: 70%;
+  width: 75%;
+  height: 75%;
   margin: auto;
   overflow: auto;
   display: flex;
@@ -100,7 +100,7 @@ img {
 }
 
 #cctv-end {
-  width: 30%;
+  width: 25%;
   align-self: flex-end;
   margin-left: auto;
   display: flex;
