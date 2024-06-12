@@ -22,7 +22,6 @@ h2 {
 }
 
 a {
-  color: white;
   font-family: sans-serif;
 }
 
@@ -142,8 +141,8 @@ img {
 
 #cctv-end a {
   font-size: 1.2em;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.35);
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.75);
 }
 
 @media only screen and (max-width: 600px) {
