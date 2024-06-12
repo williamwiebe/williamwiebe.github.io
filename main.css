@@ -25,6 +25,10 @@ a {
   font-family: sans-serif;
 }
 
+a:visited {
+  color: #0000ee;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -51,7 +55,7 @@ img {
 
 .exhibition {
   margin: 20px;
-  border-bottom: 1px white solid;
+  border-bottom: 1px black solid;
 }
 
 .exhibition:last-of-type {
@@ -81,7 +85,7 @@ img {
 }
 
 #header {
-  color: white;
+  color: black;
 }
 
 #header:hover span {
