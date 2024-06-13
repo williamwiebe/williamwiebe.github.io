@@ -103,7 +103,7 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 32%;
+  width: 32.5%;
   height: 97%;
   margin: auto;
   overflow: auto;
@@ -136,7 +136,7 @@ img {
 }
 
 #cctv-end {
-  width: 51%;
+  width: 52%;
   align-self: flex-end;
   margin-left: auto;
   display: flex;
