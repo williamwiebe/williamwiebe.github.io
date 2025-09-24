@@ -51,3 +51,16 @@ img {
   box-sizing: border-box;
   margin-bottom: 0vh;
 }
+
+@media (max-width: 768px) {
+  .center-block {
+    max-width: 100% !important; /* override the 50vw cap */
+    width: 100%; /* let the block fill its parent */
+  }
+
+  .center-block img {
+    display: block;
+    width: 100% !important; /* fill the container on mobile */
+    height: auto !important; /* keep aspect ratio */
+  }
+}
